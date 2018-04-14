@@ -263,3 +263,33 @@ body {
     text-decoration: none;
   }
   /*FIM FORMATAÇÃO*/
+  .visualizar{    
+    background-color: #414146;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;    
+  }
+  .fa-github{
+    color: #fff;
+    padding: 0; 
+    padding-right: 8px;   
+    border-right: 1px solid #000;
+    float: left;    
+  }
+  a#visu{      
+    text-decoration: none; 
+    padding-left: 15px;    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    
+    font-size: 16px;    
+    list-style: none;    
+    color: #fff;   
+  }
+  .visualizar:hover{
+    background-color: #222;
+  }
+ .visualizar:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+  } 
