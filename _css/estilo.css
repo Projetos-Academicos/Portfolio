@@ -33,14 +33,27 @@ body {
       margin-left: 5%;
       color: #ddd;      
   }
+  @media screen and (min-width: 1200px){
+    p#sub-titulo{
+      margin-left: 9%;
+    }
+  }
+   @media screen and (min-width: 1500px){
+    h1#titulo{          
+      margin-left: 5%;
+    }
+  }
   .glyphicon-user{
     margin-left: 10%;
     margin-top: 15%;
-  }
+  }  
   .col-sm-8 a{
     color: #333;
     text-decoration: none;
 
+  }
+  .col-sm-8 span{
+    font-size: 15px;
   }
   .col-sm-4 a{
     color: #333;    
@@ -292,4 +305,63 @@ body {
     outline: thin dotted;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
+  }   
+
+  /*  FORMATAÇÃO DA PAGINA MANUTENÇÃO   */
+  .img-responsive{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;    
+  }
+  @media screen and (min-width: 769px){
+
+    .img-responsive{
+        padding-left: 15%;
+    }    
+  }
+ @media screen and (min-width: 1170px){
+
+    .img-responsive{
+        padding-left: 20%;
+    }    
+  }
+ @media screen and (min-width: 1400px){
+
+    .img-responsive{
+        padding-left: 23%;
+    }    
+  }
+  #nome-projetos{
+    margin-bottom: 0px;
+  } 
+  h6{
+    margin-bottom: 30px;
+  }
+  #sobre-min{
+    margin-bottom: 0;
+  }
+  h5{
+    margin-bottom: 30px;
+  }
+  #mesma-linha{
+    display: inline;
+  }
+  .espaco-linha{
+    margin-left: 10px;
+    color: #818181;
+  }
+  .col-sm-5 a, 
+  h5 a{
+    text-decoration: none;
+    color: #818181;
+  }
+  .col-sm-5 a, 
+  h5 a:hover{
+    text-decoration: none;
+    color: #818181;
+  }
+  .col-sm-5 a, 
+  h5 a:focus{
+   text-decoration: none;
+   color: #818181;
   } 

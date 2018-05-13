@@ -3,7 +3,7 @@
 <head>
 	<title>Ricardo Lima</title>
 	<meta charset="utf-8">
-		<meta name="keywords" content="Ricardo Lima, Portfolio, zLima, Site Ricardo">
+	<meta name="keywords" content="Ricardo Lima, Portfolio, zLima, Site Ricardo">
 	<meta name="description" content="Portfolio acadêmico de Ricardo Lima, Graduando em ciência da computação.">
 	<meta name="author" content="Ricardo Lima">
 
@@ -20,7 +20,7 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-			<!-- MENU -->
+	<!-- MENU -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -42,28 +42,52 @@
 			</div>
 		</div>
 	</nav>
-			<!-- TITULO -->
+	<!-- TITULO -->
 	<div class="jumbotron text-center">
 		<h1 id="titulo">Ricardo Lima</h1> 
 		<div class="col-sm-6">
 			<p id="sub-titulo">Graduando em Ciências da Computação</p> 	
 		</div>				
 	</div>
-				<!-- PAGINA SOBRE (CONTEUDO SOBRE) -->
+	<!-- PAGINA SOBRE (CONTEUDO SOBRE) -->
 	<div id="sobre" class="container-fluid">
 		<div class="row">
-			<div class="col-sm-8">
-				<h2>Um pouco sobre mim</h2><br>
-				<h4>Me chamo Ricardo Lima, tenho 20 anos, atualmente estou no 5º período da minha graduação em ciência da computação. Sou apaixonado pela área, principalmente em desenvolvimento de software, contudo busco sempre me aperfeiçoar não só em desenvolvimento, mas também nas demais áreas do curso.</h4><br>
-				<p>Apesar de ainda ser muito jovem, responsabilidade e comprometimento é um dos pontos em que mais enfatizo no desenvolvimento dos meus projetos acadêmicos, tornando-os o mais profissional possível. Atualmente busco ingressar-me no mercado de trabalho, preferencialmente na área de desenvolvimento, como estagiário ou trainee para adquirir experiência e vivência, unindo e aperfeiçoando cada vez mais a teoria e a prática.</p>
-				<br><button class="btn btn-default btn-lg" title="Curriculo"><a href="http://lattes.cnpq.br/9417496230377880" target="_blank">Saiba mais</a></button>
+			<div class="col-sm-9">				
+				<div class="col-sm-7" style="text-align: center;">
+					<h2 id="sobre-min">sobre mim</h2>
+					<h5 title="Curriculo"><a href="_docs/Curriculo_Ricardo_Lima.pdf" target="_blank">Minha carreira profissional</a></h5>					
+				</div>
+				<div class="row">
+					<div class="col-sm-5">					
+						<h4> <span class="glyphicon">&#xe258;</span> 2018</h4>
+						<h4 id="mesma-linha">Empresa:</h4> <a href="http://www.appsware.com.br/" target="_blank"><span class="espaco-linha"> Appsware.</span></a><br/>
+						<h4 id="mesma-linha">Cargo: </h4> <span class="espaco-linha"> Estagiário.</span><br/>
+						<h4 id="mesma-linha">Período: </h4> <span class="espaco-linha"> 23/04/2018 - Atualmente. </span><br/>
+						<h4 id="mesma-linha">Área: </h4> <span class="espaco-linha"> Desenvolvimento software web. </span><br/>
+					</div>
+				</div>
+				<br/>
+				<div class="col-sm-7"></div>
+				<div class="row">
+					<div class="col-sm-5">					
+						<h4> <span class="glyphicon">&#xe258;</span> 2017</h4>
+						<h4 id="mesma-linha">Empresa:</h4> <a href="http://www.dataenigma.com.br/" target="_blank"><span class="espaco-linha"> Data Enigma.</span></a><br/>
+						<h4 id="mesma-linha">Cargo: </h4> <span class="espaco-linha"> Estagiário.</span><br/>
+						<h4 id="mesma-linha">Período: </h4> <span class="espaco-linha"> 20/07/2017 - 24/10/2017. </span><br/>
+						<h4 id="mesma-linha">Área: </h4> <span class="espaco-linha">Suporte técnico, Help desk. </span><br/>
+					</div>	
+				</div>					
 			</div>
-			<div class="col-sm-4">
+			<!-- <div class="col-sm-3">
 				<span class="glyphicon glyphicon-user logo"></span>
-			</div>
+				
+					<button class="btn btn-default btn-lg" title="Curriculo"><a href="_docs/Curriculo_Ricardo_Lima.pdf" target="_blank">
+					Curriculo</a></button>
+				
+			</div> -->
 		</div>
 	</div>
-			<!-- PAGINA PROJETOS (CONTEUDO PROJETOS) -->
+	<!-- PAGINA PROJETOS (CONTEUDO PROJETOS) -->
 	<div id="projetos" class="container-fluid text-center">
 		<h2>PROJETOS</h2>
 		<h4>Confira alguns de meus projetos</h4>
@@ -71,13 +95,15 @@
 		<div class="row slideanim">
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-folder-open logo-small"></span>
-				<h4>Portfolio Online</h4>
+				<h4 id="nome-projetos">Portfolio Online</h4>
+				<h6>Desenvolvimento Web</h6>
 				<p><a id="visu" href="https://github.com/Projetos-Academicos/Portfolio" target="_blank"><button class="visualizar"><span class="fa fa-github"></span>Visualizar</button></a></p>
 			</div>
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-folder-open logo-small"></span>
-				<h4>Projeto 2</h4>
-			    <p><a href="#projetos" data-toggle="modal" data-target="#myModal">Visualizar</a></p>
+				<h4 id="nome-projetos">Agenda de Contatos</h4>
+				<h6>Desenvolvimento Mobile</h6>
+				<p><a id="visu" href="https://github.com/Projetos-Academicos/AgendaContatos" target="_blank"><button class="visualizar"><span class="fa fa-github"></span>Visualizar</button></a></p>
 			</div>
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-folder-open logo-small"></span>
@@ -149,6 +175,8 @@
 					<li>Diagrama de Classes;</li>
 					<li>Diagrama de Casos de Usos;</li>
 					<li>Histórias dos Usuários;</li>
+					<li>BPM;</li>
+					<li>BPMN;</li>
 					<li>Scrum;</li>
 					<li>PMBOK;</li>
 					<li>Redmine;</li>							   		
@@ -164,16 +192,25 @@
 				</ul>						
 			</div>	
 			<div class="col-sm-3">
+				<h4>Desenvolvimento Mobile:</h4>
+				<ul>
+					<li>React Native;</li>
+					<li>ECMAScript 6;</li>
+					<li>Node.js;</li>					
+				</ul>
+			</div>	  
+			<div class="col-sm-3">
 				<h4>Conhecimentos Adicionais:</h4>
 				<ul>
 					<li>Git e GitHub;</li>
 					<li>Wamp Server;</li>
+					<li>Bizagi Modeler;</li>
 					<li>Inglês Básico;</li>			   		
 				</ul>
 			</div>	  
 		</div>
 	</div>
-					<!-- CONTATO -->
+	<!-- CONTATO -->
 	<div id="contato" class="container-fluid bg-grey">
 		<h2 class="text-center">CONTATO</h2>
 		<div class="row">
@@ -185,27 +222,27 @@
 			</div>
 			<div class="col-sm-7 slideanim">
 				<form method="post" action="email.php">
-				<div class="row">					
-					<div class="col-sm-6 form-group">
-						<input class="form-control" id="name" name="nome" placeholder="Nome" type="text" required>
+					<div class="row">					
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="name" name="nome" placeholder="Nome" type="text" required>
+						</div>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+						</div>
 					</div>
-					<div class="col-sm-6 form-group">
-						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+					<textarea class="form-control" id="comments" name="mensagem" placeholder="Mensagem" rows="5" style="resize: none;"></textarea><br>
+					<div class="row">
+						<div class="col-sm-12 form-group">
+							<button class="btn btn-default pull-right" type="submit">Enviar</button>
+						</div>
 					</div>
-				</div>
-				<textarea class="form-control" id="comments" name="mensagem" placeholder="Mensagem" rows="5" style="resize: none;"></textarea><br>
-				<div class="row">
-					<div class="col-sm-12 form-group">
-						<button class="btn btn-default pull-right" type="submit">Enviar</button>
-					</div>
-				</div>
-			</form>
+				</form>
 			</div>
 		</div>
 	</div>
 
 
-				<!-- RODAPÉ -->
+	<!-- RODAPÉ -->
 	<footer class="container-fluid text-center">
 		<a href="#myPage" title="Topo">
 			<span class="glyphicon glyphicon-chevron-up"></span>
@@ -218,8 +255,8 @@
 
 
 
-<script>
-$(document).ready(function(){
+	<script>
+		$(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -233,51 +270,51 @@ $(document).ready(function(){
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
-        scrollTop: $(hash).offset().top
+      	scrollTop: $(hash).offset().top
       }, 900, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
-      });
+    });
     } // End if
-  });
+});
   
   $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
+  	$(".slideanim").each(function(){
+  		var pos = $(this).offset().top;
 
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
+  		var winTop = $(window).scrollTop();
+  		if (pos < winTop + 600) {
+  			$(this).addClass("slide");
+  		}
+  	});
   });
 })
 </script>
 
-    <script type=text/javascript>
-		function Alerta(){
-			alert("Estamos organizando os repositórios no GitHub, tente novamente mais tarde! ");
-		}
-	</script>
+<script type=text/javascript>
+	function Alerta(){
+		alert("Estamos organizando os repositórios no GitHub, tente novamente mais tarde! ");
+	}
+</script>
 
 <div class="container">
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Estamos em manutenção!</h4>
-        </div>
-        <div class="modal-body">
-          <p>Estamos organizando os repositórios no GitHub, tente novamente mais tarde!</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Estamos em manutenção!</h4>
+				</div>
+				<div class="modal-body">
+					<p>Estamos organizando os repositórios no GitHub, tente novamente mais tarde!</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 </body>

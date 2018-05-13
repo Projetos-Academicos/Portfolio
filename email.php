@@ -16,9 +16,9 @@ $headers .= 'From: Ricardo-Lima<naoresponda>';
 $enviaremail = mail($destino, $assunto, $tudo, $headers);
   if($enviaremail){ 
         echo "<script> alert('Mensagem enviada com sucesso!');</script>";
-        echo "<script>javascript:window.location= 'index.html';</script>";
+        echo "<script>javascript:window.location= 'http://ricardo-lima.000webhostapp.com/';</script>";
   } else {
         echo "<script> alert('Falha ao enviar o email, tente novamente!');</script>";  
-        echo "<script>javascript:window.location='index.html';</script>";
+        echo "<script>javascript:window.location='http://ricardo-lima.000webhostapp.com/';</script>";
   }
 ?>
