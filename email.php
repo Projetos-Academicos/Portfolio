@@ -7,7 +7,7 @@ $tudo = "Nome: " . $nome . "<br>" . "<br>" . "E-mail: " . $email . "<br>" . "<br
 
 $emailenviar = "ricardoccofg@gmail.com";
 $destino = $emailenviar;
-$assunto = "Contato Portfolio";
+$assunto = "Contato Via Portfolio";
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
@@ -16,9 +16,9 @@ $headers .= 'From: Ricardo-Lima<naoresponda>';
 $enviaremail = mail($destino, $assunto, $tudo, $headers);
   if($enviaremail){ 
         echo "<script> alert('Mensagem enviada com sucesso!');</script>";
-        echo "<script>javascript:window.location= 'http://ricardo-lima.000webhostapp.com/';</script>";
+        echo "<script>javascript:window.location= 'http://ricardo-lima.tk/';</script>";
   } else {
         echo "<script> alert('Falha ao enviar o email, tente novamente!');</script>";  
-        echo "<script>javascript:window.location='http://ricardo-lima.000webhostapp.com/';</script>";
+        echo "<script>javascript:window.location='http://ricardo-lima.tk/';</script>";
   }
 ?>
