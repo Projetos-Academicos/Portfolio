@@ -19,6 +19,9 @@ body {
     h1#titulo{
       font-size: 36px;
     }
+    .my-infos{
+      margin-bottom: 30px;
+    }
   }  
   @media screen and (max-width: 350px){
     h1#titulo{
@@ -444,4 +447,18 @@ img#idDataEnigma{
     padding: 0px;
     margin-top: 19px;
     border-radius: 30%;
+}
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+p.nome-contato {
+  font-size: 20px;
+  margin-left: 10%;
+}
+span.glyphicon.glyphicon-phone {
+  padding-right: 10px;
+}
+span.glyphicon.glyphicon-envelope {
+  padding-right: 10px;
 }
