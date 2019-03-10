@@ -1,364 +1,448 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Ricardo Lima</title>
-    <meta charset="utf-8">
-    <meta name="keywords" content="Ricardo Lima, Portfolio, zLima, Site Ricardo">
-    <meta name="description" content="Portfolio acadêmico de Ricardo Lima, Graduando em ciência da computação.">
-    <meta name="author" content="Ricardo Lima">
+  <meta charset="utf-8">
+  <title>Ricardo Lima</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <link rel="icon" href="_img/logo.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="_css/estilo.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="img/logo-aba.ico" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body>
 
-    <!-- MENU -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!--<a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-home"></span></a> -->
-                <a class="navbar-brand" href="#myPage"><button class="r">R</button></a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#sobre" id="sob">SOBRE</a></li>
-                    <li><a href="#projetos">PROJETOS</a></li>
-                    <li><a href="#curriculo">CURRICULO</a></li>
-                    <li><a href="#contato">CONTATO</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- TITULO -->
-    <div class="jumbotron text-center">
-        <h1 id="titulo">Ricardo Lima</h1>
-        <div class="col-sm-6">
-            <p id="sub-titulo">Graduando em Ciência da Computação</p>
-        </div>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Projetos</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
     </div>
-    <!-- PAGINA SOBRE (CONTEUDO SOBRE) -->
-    <div id="sobre" class="container-fluid">
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Ricardo Lima</h1>
+      <h2>Desenvolvedor de Software | SFC ™ | SFPC</h2>
+      <a href="#about" class="btn-get-started">Detalhes</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Sobre Mim</h2>
+            <p>Graduando em Ciência da Computação na UNIFG. Desenvolvedor Jr na Pitang. Apaixonado por tecnologia, jogos onlines e séries.</p>
+           
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-certificate"></i></div>
+              <h4 class="title"><a href="http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificates/ScrumFundamentalsCertified-RicardoLima-674442.pdf" target="_blannk">Scrum Fundamentals Certified (SFC™)</a></h4>
+              <p class="description">12/2018 - 12/2021. Licença: 674442</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-certificate"></i></div>
+              <h4 class="title"><a href="https://cmkr.co/pdf/downloads/?certificate_id=33735&sid=31026312&nrg_id=542366&test_id=976061&aid=4238890&utype=SD&cert_token=2f253ff0c686f4623810cd6fd393286f&tprtoken=VG9H" target="_blank">Scrum Foundation Professional Certificate (SFPC)</a></h4>
+              <p class="description">01/2019 - Não expira.</p> 
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon"><i class="fa fa-trophy"></i></div>
+                <h4 class="title"><a href="http://pigsconstrucaocivil.labs.cesar.org.br/?p=22085" target="_blank">1º Lugar no Code a City - PIGS</a></h4>
+                <p class="description">Hackathon desenvolvido pela PIGS (Plataforma Integrada de Geração de Startups) em
+                  parceria com o Sebrae e o CESAR com intuito de fomentar empreendedorismo na construção civil.</p>
+              </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Projetos Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Projetos</h3>
+          <p class="section-description">Alguns projetos academicos</p>
+        </div>
         <div class="row">
-            
-            <div class="container">
-                 <div style="text-align: center;">
-                    <h2 id="sobre-min">Sobre Mim</h2>
-                    <h4 title="experiencia" id="experiencia">Experiências Profissionais</h4>
-                </div>
-            <div class="row slideanim">
-                <div class="col-md-12">
-                    <div class="main-timeline9">
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="circle"><span><a href="https://adverum.com.br/" target="_blank"><img src="_img/adverumlogo.png" class="img-responsive" id="idAdverum" alt="Ad Verum"></a></span></div>
-                                <div class="content">
-                                    <span class="year">08/2018</span>
-                                    <h4 class="title">Estágio</h4>
-                                    <p class="description">
-                                        Desenvolvimento de sistema web utilizando Java e as tecnologias: Spring boot, Thymeleaf,
-                                        HTML, CSS, JavaScript, Jquery, Ajax, Hibernate, JPA, PostgreSQL, SVN.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="circle"><span><a href="http://www.appsware.com.br/" target="_blank"><img src="_img/appswarelogo.jpg" class="img-responsive" id="idAppsware" alt="Ad Verum"></a></span></div>
-                                <div class="content">
-                                    <span class="year">04/2018 - 08/2018</span>
-                                    <h4 class="title">Estágio</h4>
-                                    <p class="description">
-                                        Desenvolvimento de sistema web utilizando
-                                        Java e as tecnologias: JSF, PrimeFaces, JavaScript,Hibernate, JPA, PostgreSQL, IReport, SVN.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content" id="timelineTree">
-                                <div class="circle"><span><a href="http://dataenigma.com.br/" target="_blank"><img src="_img/dataenigmalogo.png" class="img-responsive" id="idDataEnigma" alt="Ad Verum"></a></span></div>
-                                <div class="content">
-                                    <span class="year">07/2017 - 10/2017</span>
-                                    <h4 class="title">Estágio</h4>
-                                    <p class="description">
-                                         Realizar manutenção preventiva nos computadores, fazer troca e manutenção de peças,
-                                        infraestrutura de cabos e equipamentos, atendimentos e suporte com sistema de chamados,
-                                        atendimentos On-site e Remotos aos usuários.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href="https://github.com/Projetos-Academicos/Portfolio" target="_blank"><i
+                    class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="https://github.com/Projetos-Academicos/Portfolio" target="_blank">Portfolio</a>
+              </h4>
+              <p class="description">Codigo fonte do portifolio, esse portifolio tem a finalidade de mostrar um pouco
+                sobre meus projetos academicos e minha carreira profissional. </p>
             </div>
-        </div>
-        </div>
-    </div>
-     <!-- PAGINA PROJETOS (CONTEUDO PROJETOS) -->
-     <div id="projetos" class="container-fluid text-center">
-        <h2>PROJETOS</h2>
-        <h4>Projetos acadêmicos</h4>
-        <br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">Portfólio</h4>
-                <h6>Web Site</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/Portfolio" target="_blank"><button class="visualizar"><span
-                                class="fa fa-github"></span>Visualizar</button></a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href="https://github.com/Projetos-Academicos/oia-api" target="_blank"><i
+                    class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="https://github.com/Projetos-Academicos/oia-api" target="_blank">Ôia API</a>
+              </h4>
+              <p class="description">API desenvolvida durante a disciplina de desenvolvimento mobile para ser consumida
+                por uma aplicação desenvolvida em React Native, o projeto foi descontinuado. </p>
             </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">Construindo uma API</h4>
-                <h6>API Rest Java</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/sistema-api" target="_blank"><button class="visualizar"><span
-                                class="fa fa-github"></span>Visualizar</button></a></p>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href="https://github.com/Projetos-Academicos/Oia-aplicacao" target="_blank"><i
+                    class="fa fa-mobile"></i></a></div>
+              <h4 class="title"><a href="https://github.com/Projetos-Academicos/Oia-aplicacao" target="_blank">Ôia
+                  App</a></h4>
+              <p class="description">Aplicação desenvolvida em React Native, com o intuito de ser uma plataforma de
+                busca e ofertas de empregos informais "ôias", o projeto foi descontinuado.</p>
             </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">Ôia API</h4>
-                <h6>API Rest Java</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/oia-api" target="_blank"><button class="visualizar"><span
-                                class="fa fa-github"></span>Visualizar</button></a></p>
-            </div>
-        </div>
-        <br><br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">Ôia Aplicação</h4>
-                <h6>Aplicativo Mobile</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/Oia-aplicacao" target="_blank"><button
-                            class="visualizar"><span class="fa fa-github"></span>Visualizar</button></a></p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">Lista de Tarefas</h4>
-                <h6>Aplicativo Mobile</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/ListaTarefas" target="_blank"><button
-                            class="visualizar"><span class="fa fa-github"></span>Visualizar</button></a></p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">Agenda de Contatos</h4>
-                <h6>Aplicativo Mobile</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/AgendaContatos" target="_blank"><button
-                            class="visualizar"><span class="fa fa-github"></span>Visualizar</button></a></p>
-            </div>
-        </div>
-        <br><br>
-        <div class="row slideanim">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">Sistema com PHP</h4>
-                <h6>Aplicação PHP</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/SistemaRSD" target="_blank"><button class="visualizar"><span
-                                class="fa fa-github"></span>Visualizar</button></a></p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">CRUD com Acess</h4>
-                <h6>Aplicação C# (Console)</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/CRUD-Acess" target="_blank"><button class="visualizar"><span
-                                class="fa fa-github"></span>Visualizar</button></a></p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-folder-open logo-small"></span>
-                <h4 id="nome-projetos">Cadastro de Carros</h4>
-                <h6>Aplicação C# (Console)</h6>
-                <p><a id="visu" href="https://github.com/Projetos-Academicos/Cadastro-Carros" target="_blank"><button
-                            class="visualizar"><span class="fa fa-github"></span>Visualizar</button></a></p>
-            </div>
-        </div>
-        <br><br>
-    </div>
-    <!-- CURRICULO (CONTEUDO CURRICULO) -->
-    <div id="curriculo" class="container-fluid">
-        <div class="text-center">
-            <h2>CURRICULO</h2>
-            <h4>Conhecimentos acadêmicos</h4>
-        </div>
-        <div class="row slideanim">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h4>Linguagens de Programação</h4>
-                    <ul>
-                        <li>Java;</li>
-                        <li>JavaScript;</li>
-                        <li>C#;</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <h4>Desenvolvimento Web:</h4>
-                    <ul>
-                        <li>HTML;</li>
-                        <li>CSS;</li>
-                        <li>Bootstrap;</li>
-                        <li>Thymeleaf;</li>
-                        <li>Jquery;</li>
-                        <li>Ajax;</li>
+          </div>
 
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <h4>Desenvolvimento Mobile:</h4>
-                    <ul>
-                        <li>React Native;</li>
-                        <li>ECMAScript 6;</li>
-                    </ul>
-                </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href="https://github.com/aceleradev/java-3" target="_blank"><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="https://github.com/aceleradev/java-3" target="_blank">Desafio (1) AceleraDev</a></h4>
+              <p class="description">Desafio da primeira semana do AceleraDev - Recife: Processe dados dos jogadores do FIFA© 2017 usando Java.</p>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h4>Banco de Dados:</h4>
-                    <ul>
-                        <li>MySQL;</li>
-                        <li>PostgreSQL;</li>
-                        <li>Firebase;</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <h4>Ambiente de Desenvolvimento:</h4>
-                    <ul>
-                        <li>Eclipse;</li>
-                        <li>Visual Studio Code</li>
-                        <li>WorkBench;</li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-4">
-                    <h4>Conhecimentos Adicionais:</h4>
-                    <ul>
-                        <li>Git e GitHub;</li>
-                        <li>SVN;</li>
-                        <li>JPA;</li>
-                        <li>Hibernate;</li>
-                        <li>Spring Boot;</li>
-                        <li>Scrum (SFC™);</li>
-                        <li>Inglês Básico;</li>
-                    </ul>
-                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href="https://github.com/aceleradev/java-mongodb" target="_blank"><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="https://github.com/aceleradev/java-mongodb" target="_blank">Desafio (3) AceleraDev</a></h4>
+              <p class="description">Desafio da terceira semana do AceleraDev - Recife: API de uma plataforma de receitas.</p>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href="https://github.com/aceleradev/mapfood" target="_blank"><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="https://github.com/aceleradev/mapfood" target="_blank">Desafio Final AceleraDev</a></h4>
+              <p class="description">Desafio final do AceleraDev - Recife : Projeto MapFood.</p>
+            </div>
+          </div>
         </div>
-    </div>
-    <br/>
-    <!-- CONTATO -->
-    <div id="contato" class="container-fluid bg-grey">
-        <h2 class="text-center">CONTATO</h2>
+
+      </div>
+    </section><!-- #Projetos -->
+
+    <!-- ==========================
+      Portfolio Section
+    ============================
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Portfolio</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
         <div class="row">
-            <div class="col-sm-5 my-infos">
-                <p class="nome-contato">Ricardo Lima</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +55 (81) 99463-3530 | Claro</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> ricardoccofg@gmail.com</p>
-            </div>
-            <div class="col-sm-7 slideanim">
-                <form method="post" action="email.php">
-                    <div class="row">
-                        <div class="col-sm-6 form-group">
-                            <input class="form-control" id="name" name="nome" placeholder="Nome" type="text" required>
-                        </div>
-                        <div class="col-sm-6 form-group">
-                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                        </div>
-                    </div>
-                    <textarea class="form-control" id="comments" name="mensagem" placeholder="Mensagem" rows="5" style="resize: none;"></textarea><br>
-                    <div class="row">
-                        <div class="col-sm-12 form-group">
-                            <button class="btn btn-default pull-right" type="submit">Enviar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-logo">Logo</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
         </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app1.jpg" alt="">
+              <div class="details">
+                <h4>App 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web2.jpg" alt="">
+              <div class="details">
+                <h4>Web 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app3.jpg" alt="">
+              <div class="details">
+                <h4>App 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card1.jpg" alt="">
+              <div class="details">
+                <h4>Card 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card2.jpg" alt="">
+              <div class="details">
+                <h4>Card 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web3.jpg" alt="">
+              <div class="details">
+                <h4>Web 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="img/portfolio/card3.jpg" alt="">
+              <div class="details">
+                <h4>Card 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="img/portfolio/app2.jpg" alt="">
+              <div class="details">
+                <h4>App 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo1.jpg" alt="">
+              <div class="details">
+                <h4>Logo 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo3.jpg" alt="">
+              <div class="details">
+                <h4>Logo 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="img/portfolio/web1.jpg" alt="">
+              <div class="details">
+                <h4>Web 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="img/portfolio/logo2.jpg" alt="">
+              <div class="details">
+                <h4>Logo 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+     #portfolio -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Contato</h3>
+          <p class="section-description"></p>
+        </div>
+      </div>
+
+      <div class="container wow fadeInUp mt-5">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Jaboatão dos Guararapes, PE</p>
+              </div>
+
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>zlima.developer@gmail.com</p>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+55 81 9 94633530</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://www.facebook.com/ricardo.henrique.2012" target="_blank" class="facebook"><i
+                  class="fa fa-facebook" title="Facebook"></i></a>
+              <a href="https://www.instagram.com/zlimaa/" target="_blank" class="instagram"><i class="fa fa-instagram"
+                  title="Instagram"></i></a>
+              <a href="https://github.com/RicardoHCL" target="_blank" class="github"><i class="fa fa-github"
+                  title="GitHub"></i></a>
+              <a href="https://www.linkedin.com/in/ricardohcl/" target="_blank" class="linkedin"><i
+                  class="fa fa-linkedin" title="LinkedIn"></i></a>
+              <a href="doc/Curriculo_Ricardo_Lima.pdf" target="_blank" class="download"><i class="fa fa-download"
+                  title="Curriculo.pdf"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Sua mensagem foi enviada com sucesso. Obrigado!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4"
+                    data-msg="O campo deve conter no minímo 4 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email"
+                    data-msg="Por favor informe um email válido" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto"
+                    data-rule="minlen:8" data-msg="O campo deve conter no minímo 8 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                    data-msg="O campo não pode está vazio" placeholder="Mensagem"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit">Enviar</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
     </div>
-
-
-    <!-- RODAPÉ -->
-    <footer class="container-fluid text-center">
-        <a href="#myPage" title="Topo">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
-        <p>Copyleft <span class="copyleft">&copy;</span> 2018 - Ricardo Lima</p>
-        <i class="fa" title="Facebook"><a href="https://www.facebook.com/ricardo.henrique.2012" target="_blank">&#xf09a;</a></i>
-        <i class="fa" title="Linkedin"><a href="https://www.linkedin.com/in/ricardohcl/" target="_blank">&#xf0e1;</a></i>
-        <i class="fa" title="GitHub"><a href="https://github.com/Projetos-Academicos" target="_blank">&#xf09b;</a></i>
-        <i class="fa" title="Currículo.pdf"><a href="_docs/Curriculo_Ricardo_Lima.pdf" target="_blank">&#xf1c1;</a></i>
-    </footer>
-
-
-
-    <script>
-        $(document).ready(function () {
- 
-            $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
-
-                if (this.hash !== "") {
-
-                    event.preventDefault();
-
-                    var hash = this.hash;
-
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 900, function () {
-
-                        window.location.hash = hash;
-                    });
-                } 
-            });
-
-            $(window).scroll(function () {
-                $(".slideanim").each(function () {
-                    var pos = $(this).offset().top;
-
-                    var winTop = $(window).scrollTop();
-                    if (pos < winTop + 600) {
-                        $(this).addClass("slide");
-                    }
-                });
-            });
-        })
-    </script>
-
-    <script type=text/javascript>
-	function Alerta(){
-		alert("Estamos organizando os repositórios no GitHub, tente novamente mais tarde! ");
-	}
-</script>
 
     <div class="container">
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Estamos em manutenção!</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Estamos organizando os repositórios no GitHub, tente novamente mais tarde!</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>''
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
 
 </body>
 
